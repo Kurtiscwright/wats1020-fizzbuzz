@@ -24,7 +24,28 @@ function cleanFizz(value) {
   }
 }
 
+function swiFizz(value) {
+  for (var i =1; i <= value; i++) {
+    switch(true) {
+    case (i % 3 == 0):
+     console.log("Fizz");
+     break;
+    case (i % 5 == 0):
+     console.log("Buzz");
+     break;
+    case (i % 3 == 0 && i % 5 == 0):
+     console.log("FizzBuzz");
+     break;
+    default:
+    console.log(i)
+     break;
+   }
+  }
+}
+
 var test = 10
 var test2 = 100
 
-cleanFizz (test);
+swiFizz (test);
+
+//alert (test);
