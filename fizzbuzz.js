@@ -48,7 +48,7 @@ function cleanFizz(value) {
   return retu; //this will return whatever is in retu's ''
 }
 
-var test = 10;
+var test = 20;
 var test2 = 100;
 var test3 = 1000;
 
