@@ -52,6 +52,6 @@ var test = 20;
 var test2 = 100;
 var test3 = 1000;
 
-//swiFizz(test);
+swiFizz(test);
 
 //alert (test);
